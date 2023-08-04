@@ -37,3 +37,7 @@ def home():
 @login_required
 def dashboard():
     return render_template('dashboard.html')
+
+@app.route('/signup')
+def signuppage():
+    return render_template('signup.html')

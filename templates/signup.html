@@ -5,9 +5,12 @@
 
     <div class="card">
 
-      <h1 class="center">Log In</h1>
+      <h1 class="center">Create an Account</h1>
 
-      <form name="login_form">
+      <form name="signup_form">
+
+        <label for="name">Name</label>
+        <input type="text" name="name" class="field" required>
 
         <label for="email">Email</label>
         <input type="email" name="email" class="field" required>
@@ -17,8 +20,8 @@
 
         <p class="error error--hidden"></p>
 
-        <input type="submit" value="Log In" class="btn">
-        <input onclick="window.location.href='/signup'" type="submit" value="Sing Up" class="btn"></button>
+        <input type="submit" value="Sign Up" class="btn">
+        <input onclick="window.location.href='/'" type="submit" value="Log In" class="btn"></button>
       
       </form>
       
